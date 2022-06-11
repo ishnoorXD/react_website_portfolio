@@ -10,6 +10,7 @@ import Headermain from "../header";
 import AnimatedCursor from "react-animated-cursor";
 import "./App.css";
 
+
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -18,6 +19,7 @@ function _ScrollToTop(props) {
   return props.children;
 }
 const ScrollToTop = withRouter(_ScrollToTop);
+
 
 export default function App() {
   return (

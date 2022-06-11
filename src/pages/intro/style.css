@@ -1,0 +1,50 @@
+.background {
+    background: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .scrollText {
+    font-size: 80rem;
+  }
+
+
+  .g{
+    background-color: linear-gradient(rgb(27, 24, 24), #000);
+    height: 650px;
+    width: auto;
+    
+    
+  }
+
+  .msg{
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background: rgba(0, 0, 0, 0.884);
+    padding: 20px;
+    border-radius: 1rem;
+  }
+
+  .spimg{
+    margin: 0.5rem;
+    width: auto;
+  }
+
+  .spobtn{
+    padding: 10px;
+    border-radius: 1rem;
+    background: rgb(0, 255, 0);
+    display: flex;
+    height: 50px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
